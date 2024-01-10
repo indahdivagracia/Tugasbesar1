@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Halaman Bimbingan</title>
+</head>
+<body class="bg-red-100 p-4">
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white font-bold text-lg">Halaman Bimbingan</a>
+
+            <div class="space-x-4">
+                <a href="#" class="text-white">Beranda</a>
+                <a href="#" class="text-white">Profil</a>
+                <div class="relative inline-block text-white">
+                    <button class="hover:bg-blue-400 px-3 py-2 rounded-md focus:outline-none">Dropdown</button>
+                    <div class="absolute hidden mt-2 space-y-2 bg-white text-gray-800 p-2 rounded-md shadow-lg">
+                        <a href="#" class="block px-4 py-2">Opsi 1</a>
+                        <a href="#" class="block px-4 py-2">Opsi 2</a>
+                        <a href="#" class="block px-4 py-2">Opsi 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-md mx-auto bg-white p-8 border rounded-md shadow-md mt-10">
+        <!-- Konten Halaman Bimbingan -->
+        <!-- ... -->
+    </div>
+    
+
+    <div class="max-w-md mx-auto bg-white p-8 border rounded-md shadow-md mt-10">
+        <h1 class="text-2xl font-bold mb-6">Halaman Bimbingan</h1>
+        <img src="th.jpg" class="float-right">
+        <!-- Formulir Bimbingan -->
+        <form>
+            <div class="mb-4">
+                <label for="nama" class="block text-sm font-medium text-gray-600">Nama:</label>
+                <input type="text" id="nama" name="nama" class="mt-1 p-2 border rounded-md w-full">
+                <label for="kelas" class="block text-sm font-medium text-gray-600">kelas:</label>
+                <input type="text" id="kelas" name="kelas" class="mt-1 p-2 border rounded-md w-full">
+            </div>
+
+            <div class="mb-4">
+                <label for="pesan" class="block text-sm font-medium text-gray-600">Pesan Bimbingan:</label>
+                <textarea id="pesan" name="pesan" rows="4" class="mt-1 p-2 border rounded-md w-full"></textarea>
+            </div>
+
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Kirim Pesan</button>
+        </form>
+        
+    </div>
+
+</body>
+</html>
